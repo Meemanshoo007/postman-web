@@ -5,6 +5,7 @@
   "type": "module",
   "description": "A browser-local API workspace. No backend or database.",
   "scripts": {
+    "build": "echo 'Build complete'",
     "start": "node server.mjs",
     "dev": "node server.mjs",
     "test": "node --test",
