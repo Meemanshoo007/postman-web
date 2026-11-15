@@ -1,0 +1,13 @@
+{
+  "name": "relay-api-tester",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A browser-local API workspace. No backend or database.",
+  "scripts": {
+    "start": "node server.mjs",
+    "dev": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check dist/app.js && node --check dist/core.js"
+  }
+}
